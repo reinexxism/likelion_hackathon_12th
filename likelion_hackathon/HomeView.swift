@@ -16,7 +16,7 @@ struct HomeView: View {
                 
                 Spacer()
                 
-                NavigationLink(destination: LoginView()) {
+                NavigationLink(destination: LoginView(email: "", password: "")) {
                     Text("나의 운동 기록 시작하기")
                         .padding(.horizontal, 70)
                         .padding(.vertical, 25)
