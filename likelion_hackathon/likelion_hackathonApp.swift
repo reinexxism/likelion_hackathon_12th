@@ -11,7 +11,7 @@ import SwiftUI
 struct likelion_hackathonApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
