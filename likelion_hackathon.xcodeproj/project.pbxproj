@@ -11,6 +11,10 @@
 		27EB79772C5E31620060682C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB79762C5E31620060682C /* ContentView.swift */; };
 		27EB79792C5E31640060682C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27EB79782C5E31640060682C /* Assets.xcassets */; };
 		27EB797C2C5E31640060682C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27EB797B2C5E31640060682C /* Preview Assets.xcassets */; };
+		27EB79832C5E339F0060682C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB79822C5E339F0060682C /* HomeView.swift */; };
+		27EB79852C5E33B90060682C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB79842C5E33B90060682C /* SignUpView.swift */; };
+		27EB79872C5E33CB0060682C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB79862C5E33CB0060682C /* LoginView.swift */; };
+		27EB79892C5E33DD0060682C /* UserSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB79882C5E33DD0060682C /* UserSettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		27EB79762C5E31620060682C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27EB79782C5E31640060682C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27EB797B2C5E31640060682C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27EB79822C5E339F0060682C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		27EB79842C5E33B90060682C /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		27EB79862C5E33CB0060682C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		27EB79882C5E33DD0060682C /* UserSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				27EB79742C5E31620060682C /* likelion_hackathonApp.swift */,
 				27EB79762C5E31620060682C /* ContentView.swift */,
+				27EB79822C5E339F0060682C /* HomeView.swift */,
+				27EB79842C5E33B90060682C /* SignUpView.swift */,
+				27EB79862C5E33CB0060682C /* LoginView.swift */,
+				27EB79882C5E33DD0060682C /* UserSettingView.swift */,
 				27EB79782C5E31640060682C /* Assets.xcassets */,
 				27EB797A2C5E31640060682C /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27EB79892C5E33DD0060682C /* UserSettingView.swift in Sources */,
+				27EB79852C5E33B90060682C /* SignUpView.swift in Sources */,
+				27EB79832C5E339F0060682C /* HomeView.swift in Sources */,
 				27EB79772C5E31620060682C /* ContentView.swift in Sources */,
+				27EB79872C5E33CB0060682C /* LoginView.swift in Sources */,
 				27EB79752C5E31620060682C /* likelion_hackathonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
