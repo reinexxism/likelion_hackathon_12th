@@ -40,7 +40,7 @@ struct SignUpView: View {
             .padding(.horizontal, 25)
             .padding(.bottom, 50)
             
-            VStack {
+            VStack(spacing: 15) {
                 TextField("email", text: $email)
                     .padding()
                     .background(Color(uiColor: .secondarySystemBackground))
@@ -53,7 +53,7 @@ struct SignUpView: View {
                 
             }
             .padding(.horizontal, 25)
-            .padding(.bottom, 10)
+            .padding(.bottom, 15)
             
             Button(action: {showAlert = true}) {
                 Text("Sign Up")
@@ -77,6 +77,7 @@ struct SignUpView: View {
             NavigationLink(destination: LoginView(), isActive: $navigateToLogin) {
                 EmptyView()
             }
+            .padding(.bottom, 200)
         }
     }
 }
