@@ -9,7 +9,9 @@ import SwiftUI
 
 struct UserSettingView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("유저 세팅 화면입니다.")
+        }
     }
 }
 
