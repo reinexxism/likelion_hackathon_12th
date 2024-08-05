@@ -17,6 +17,8 @@
 		27EB79892C5E33DD0060682C /* UserSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB79882C5E33DD0060682C /* UserSettingView.swift */; };
 		27EB798B2C5E6A0D0060682C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB798A2C5E6A0D0060682C /* MainView.swift */; };
 		27EB798D2C5E6ADD0060682C /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB798C2C5E6ADD0060682C /* ColorExtension.swift */; };
+		27EB798F2C5FB2300060682C /* ChangeSystemThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB798E2C5FB2300060682C /* ChangeSystemThemeView.swift */; };
+		27EB79912C5FB2BB0060682C /* ChangeSystemLangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB79902C5FB2BB0060682C /* ChangeSystemLangView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		27EB79882C5E33DD0060682C /* UserSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingView.swift; sourceTree = "<group>"; };
 		27EB798A2C5E6A0D0060682C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		27EB798C2C5E6ADD0060682C /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		27EB798E2C5FB2300060682C /* ChangeSystemThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSystemThemeView.swift; sourceTree = "<group>"; };
+		27EB79902C5FB2BB0060682C /* ChangeSystemLangView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSystemLangView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				27EB79862C5E33CB0060682C /* LoginView.swift */,
 				27EB79882C5E33DD0060682C /* UserSettingView.swift */,
 				27EB798A2C5E6A0D0060682C /* MainView.swift */,
+				27EB798E2C5FB2300060682C /* ChangeSystemThemeView.swift */,
+				27EB79902C5FB2BB0060682C /* ChangeSystemLangView.swift */,
 				27EB79782C5E31640060682C /* Assets.xcassets */,
 				27EB797A2C5E31640060682C /* Preview Content */,
 			);
@@ -157,10 +163,12 @@
 			files = (
 				27EB79892C5E33DD0060682C /* UserSettingView.swift in Sources */,
 				27EB798B2C5E6A0D0060682C /* MainView.swift in Sources */,
+				27EB798F2C5FB2300060682C /* ChangeSystemThemeView.swift in Sources */,
 				27EB79852C5E33B90060682C /* SignUpView.swift in Sources */,
 				27EB798D2C5E6ADD0060682C /* ColorExtension.swift in Sources */,
 				27EB79832C5E339F0060682C /* HomeView.swift in Sources */,
 				27EB79772C5E31620060682C /* ContentView.swift in Sources */,
+				27EB79912C5FB2BB0060682C /* ChangeSystemLangView.swift in Sources */,
 				27EB79872C5E33CB0060682C /* LoginView.swift in Sources */,
 				27EB79752C5E31620060682C /* likelion_hackathonApp.swift in Sources */,
 			);
