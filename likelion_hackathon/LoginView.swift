@@ -49,7 +49,7 @@ struct LoginView: View {
             .padding(.horizontal, 25)
             .padding(.bottom, 10)
             
-            NavigationLink(destination: MainView()) {
+            NavigationLink(destination: ContentView().modelContainer(for: Event.self)) {
                 Text("Log in")
                     .padding(.horizontal, 120)
                     .padding(.vertical, 15)

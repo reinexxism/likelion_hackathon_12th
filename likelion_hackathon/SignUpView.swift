@@ -66,7 +66,7 @@ struct SignUpView: View {
             .alert(isPresented: $showAlert) {
                 Alert(
                     title: Text("성공적으로 회원가입 완료"),
-                    message: Text("nickname님, 환영해요!"),
+                    message: Text("bufslion님, 환영해요!"),
                     primaryButton:.default(Text("로그인하기").font(.system(size: 13)), action: {
                         navigateToLogin = true
                     }),
